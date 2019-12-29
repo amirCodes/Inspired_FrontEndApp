@@ -29,9 +29,12 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "ie 11"
+
     ],
     "development": [
+      "IE 11",
       "last 1 ie version",
       "last 1 chrome version",
       "last 1 firefox version",

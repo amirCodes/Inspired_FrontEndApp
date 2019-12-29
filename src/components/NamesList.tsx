@@ -14,7 +14,7 @@ export const NamesList: StatelessComponent<NamesListProps> = ({
 }) => (
   <ul>
     {names.map(name => (
-      <NamesListItem name={name} onDelete={onDelete} />
+      <NamesListItem name={name} onDelete={onDelete} key={name.id} />
     ))}
   </ul>
 );

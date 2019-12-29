@@ -16,7 +16,7 @@ export const NamesListItem: StatelessComponent<NamesListItemProps> = ({
   };
 
   return (
-    <li>
+    <li >
       {name.name} <button onClick={onClick}>Delete</button>
       <hr></hr>
     </li>

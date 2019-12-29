@@ -16,7 +16,7 @@ class App extends Component<{}, State> {
       name: ""
     },
     names: [
-      {id: 1, name: "Ahmad "}, {id: 2, name: "Kabul"}
+      {id: 1, name: "Jack Ma "}, {id: 2, name: "Stven"}
     ]
   };
 //const RandomName = () =>  name[Math.floor(Math.random() * name.length)]; 
